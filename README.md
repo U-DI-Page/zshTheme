@@ -1,6 +1,9 @@
 # zshTheme
 zsh script for change oh-my-zsh themes
 * git clone the repositry
+```shell
+ git clone 
+```
 * add alias to .zshrc
 
 ```shell
