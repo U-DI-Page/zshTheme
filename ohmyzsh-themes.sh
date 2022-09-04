@@ -136,7 +136,7 @@ ThemeList=(
 
 renderList(){
   clear;
-  echo "Press j to upper, k to down, h to prePage, l to next page, <Ctrl-C> to abort";
+  echo "Press j to upper, k to down, h to prePage, l to next page, q to exit";
   echo "-----------------------------"
   for ((i = 0; i < 10; i++)); do
     index=$[$1*$pageSize+$i];
@@ -155,7 +155,6 @@ updateZSHConfig(){
   sed -i 's/ZSH_THEME=".*"/ZSH_THEME="'$ThemeList[$1]'"/g' ~/.zshrc;
   exec zsh;
   clear;
-  initPanel;
 }
 
 initPanel(){
@@ -177,6 +176,8 @@ initPanel(){
         then
           currentPage=0
         fi
+        ;;
+      (q) clear; exit 0;
         ;;
       ($'\n') updateZSHConfig $currentIndex;
         ;;
