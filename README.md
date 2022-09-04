@@ -1,11 +1,11 @@
 # zshTheme
-zsh script for change oh-my-zsh themes \n
-1、git clone the repositry \n
-2、add alias to .zshrc \n
+zsh script for change oh-my-zsh themes
+* git clone the repositry
+* add alias to .zshrc
 
 ```shell
 alias zt='zsh ~/[yourproject]/ohmyzsh-themes.sh'
 ```
-3、source ~/.zshrc\n
+* source ~/.zshrc\n
 
-then you can use zt command to change zsh-themes 
+then, you can use zt command to change zsh-themes 
