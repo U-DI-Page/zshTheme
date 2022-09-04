@@ -9,6 +9,6 @@ zsh script for change oh-my-zsh themes
 ```shell
 alias zt='zsh ~/[yourproject]/ohmyzsh-themes.sh'
 ```
-* source ~/.zshrc\n
+* source ~/.zshrc
 
 then, you can use zt command to change zsh-themes 
