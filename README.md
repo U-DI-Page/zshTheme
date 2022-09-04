@@ -2,7 +2,7 @@
 zsh script for change oh-my-zsh themes
 * git clone the repositry
 ```shell
- git clone 
+ git clone https://github.com/U-DI-Page/zshTheme.git
 ```
 * add alias to .zshrc
 
